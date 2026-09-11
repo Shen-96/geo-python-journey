@@ -27,7 +27,7 @@ All exercises use New Zealand geospatial contexts:
 
 ## Project Structure
 
-\`\`\`text
+```text
 geo-python-journey/
 ├── 01_python_basics/
 ├── 02_numpy/
@@ -37,12 +37,12 @@ geo-python-journey/
 ├── 06_spatial_ai/
 ├── projects/          # Portfolio-ready work
 └── src/               # Reusable helpers
-\`\`\`
+```
 
 ## Setup
 
-\`\`\`bash
+```bash
 conda create -n geo_learning python=3.13 -y
 conda activate geo_learning
 conda install -y jupyterlab ipykernel
-\`\`\`
+```
